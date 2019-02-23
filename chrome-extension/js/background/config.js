@@ -224,7 +224,7 @@ var CONFIG = {
 			name: 'GitHub',
 			support: 'full',
 			siteForDevelopers: true,
-			hostRegExp: new RegExp('^(gist\.|)github\.com$', 'i'),
+			hostRegExp: new RegExp('^((gist\.|)github\.com|git.musta.ch)$', 'i'),
 			creators: [ // Who wrote the 80%+ of the skin?
 				{ name: 'Theis Villumsen', link: 'https://folkmann.it/' },
 				{ name: 'Nicolas Botello', link: 'http://nicolasbotello.com/' }
